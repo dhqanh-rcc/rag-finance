@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: llm-rag
-  namespace: llm-service
+  # namespace: llm-service
 spec:
   replicas: 1
   selector:
