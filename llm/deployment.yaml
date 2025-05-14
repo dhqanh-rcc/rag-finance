@@ -23,7 +23,7 @@ spec:
             name: llm-secrets
         env:
           - name: FAISS_SERVICE_URL
-            value: "http://192.168.16.95:5001/query"
+            value: "http://192.168.213.36:5001/query"
 ---
 apiVersion: v1
 kind: Service
